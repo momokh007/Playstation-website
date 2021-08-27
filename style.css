@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #f1f1f1;
+}
+.container {
+    max-width: 800px ;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slider img{
+    max-width: 100%;
+    display: none;
+}
+img.active {
+    display: block;
+    animation: fade 0.9s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.cont-btn {
+    width: 460px;
+    height: 520;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, a0.3);
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+}
+.btn-nav {
+    font-size: 50px ;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+}
+
+.nav-list
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-container
+{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #B2B1B9;
+}
+.histoire{
+    text-align: center;
+}
+.titre {
+    text-align: center;
+}
+
+.button-voir{
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border-radius: 5px;
+    margin-left: 600px;
+    size: 100px;
+}
+
+.Fifa{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.fifa{
+    margin-right: 100px;
+}
+.Gta{
+    display: flex;
+    justify-content: center;
+}
+.Gta-5{
+    margin-right: 100px ;
+}
+.content-histoire{
+    display: flex;
+    flex-direction: row;
+
+}
+.content-histoir{
+    background-color: white;
+    width: 1200px;
+    height: 580px;
+    margin-left: 70px;
+    border-radius: 16px;
+}
+.prl{
+    margin-right: 500px;
+    
+}
+.class {
+    background-color: #7EB5A6;
+}
+.footer-logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 1200px;
+    margin-left: 70px;
+}
+.carre{
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+  }
+.liste{
+    display: flex;
+    justify-content: flex-end;
+}
+.Spider {
+    margin-right: 100px;
+}
+.Grt {
+    margin-right: 100px;
+}
+.class {
+    background-color: black;
+    font-size: 24px;
+    border-radius: 16px;
+    color: #ffffff;
+    width: 1200px;
+    height: 770px;
+    margin-left: 70px;
+}
+body {
+    background-color: #B2B1B9;
+}
+video{
+    position: absolute;
+}
+.color {
+    color:black;
+}
+.p_1{
+    margin-left: 10px;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+}
+#ariere_plan {
+    background-color: white ;
+    border-radius: 16px;
+    width: 1200px;
+    height: auto;
+    margin-left: 70px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+#id {
+    text-align: center;
+    font-size: 24px;
+}
+.bienvenu {
+    background-image:url("./image/intro-ps1.jpg");
+    width: 1200px;
+    height: 605px;
+    margin-left: 70px;
+    border-radius: 16px;
+}
+a :hover {
+    text-decoration: none;
+    color: white;
+}
+
+.bienvenu{
+    width: 1200px;
+}
+#ariere_plan{
+    width: 1200px;
+}
+
+.separer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 780px){
+    body{
+        width: 400px;
+        display: block;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    img {
+        width: 150px;
+        height: 100px;
+    }
+    p {
+        font-size: small;
+    }
+    h1 {
+        font-size: 15px;
+        text-align: start;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-left: 0;
+    }
+    .bienvenu {
+        background-image:url("./image/intro-ps1.jpg");
+        width: 250px;
+        height: 500px;
+        margin-left: 20px;
+        border-radius: 16px;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        height: 300px;
+        width: 250px;
+        margin-left: 20px;
+
+    }
+    #ariere_plan {
+        background-color: white ;
+        border-radius: 16px;
+        width: 250px;
+        height: auto;
+        margin-left: 20px;
+    }
+    .class {
+        background-color: black;
+        font-size: 12px;
+        border-radius: 16px;
+        color: #ffffff;
+        width: 250px;
+        height: 1270px;
+        margin-left: 20px;
+    }
+    .content-histoir{
+        background-color: white;
+        width: 250px;
+        height: 880px;
+        margin-left: 20px;
+        border-radius: 16px;
+    }
+    .cont-btn {
+        width: 50px;
+        height: 520;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, a0.3);
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+    .btn-nav {
+        font-size: 30px ;
+        margin: 0 15px;
+        cursor: pointer;
+    }
+    .prl{
+        font-size:15px;
+        margin-right: 0px;
+    }
+    #id {
+        text-align: start;
+        font-size: 15px;
+        color: white;
+    }
+    .nav-container
+{    display: flex;
+   flex-direction: row;
+    position: fixed;
+    background-color: #B2B1B9;
+}
+.titre {
+    text-align: start;
+}
+.content-histoire{
+    display: flex;
+    flex-direction: column;
+
+}
+.nav-list
+{
+    display: flex;
+
+    justify-content: flex-start;
+}
+.separer {
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    width: 50px;
+    height: 30px;
+}
+
+}

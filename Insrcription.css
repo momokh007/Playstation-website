@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+}
+
+.nav-list
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: navy;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-container
+{
+    display: flex;
+    justify-content: space-around;
+}
